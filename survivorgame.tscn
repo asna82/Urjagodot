@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://bl14gtefq2tce"]
+
+[ext_resource type="PackedScene" uid="uid://dtmdql2e1ftyb" path="res://player.tscn" id="1_m7fa0"]
+[ext_resource type="PackedScene" uid="uid://4dfgypunssjv" path="res://mytree.tscn" id="2_20yq3"]
+[ext_resource type="PackedScene" uid="uid://cpe2bj3d2ndoe" path="res://mob.tscn" id="3_ndjeo"]
+
+[node name="Game" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1919.0
+offset_bottom = 1086.0
+
+[node name="Player" parent="." instance=ExtResource("1_m7fa0")]
+unique_name_in_owner = true
+position = Vector2(344, 346)
+
+[node name="Mob" parent="." instance=ExtResource("3_ndjeo")]
+position = Vector2(545, 563)
+
+[node name="Tree" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1136, 131)
+
+[node name="Tree2" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1233, 171)
+
+[node name="Tree3" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1134, 203)
+
+[node name="Tree4" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(209, 634)
+
+[node name="Tree5" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(272, 717)
+
+[node name="Tree6" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(169, 705)
+
+[node name="Tree7" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(667, 324)
+
+[node name="Tree8" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1201, 669)
+
+[node name="Tree9" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1706, 122)
+
+[node name="Tree10" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(645, 820)
+
+[node name="Tree11" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1659, 542)
+
+[node name="Tree12" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1646, 607)
+
+[node name="Tree13" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(1736, 611)
+
+[node name="Tree14" parent="." instance=ExtResource("2_20yq3")]
+position = Vector2(357, 117)
+
+[node name="Mob2" parent="." instance=ExtResource("3_ndjeo")]
+position = Vector2(1256, 419)
+
+[node name="Mob3" parent="." instance=ExtResource("3_ndjeo")]
+position = Vector2(1209, 944)
+
+[node name="Mob4" parent="." instance=ExtResource("3_ndjeo")]
+position = Vector2(560, 684)
